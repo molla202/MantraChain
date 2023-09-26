@@ -1,6 +1,16 @@
 
 ![image](https://github.com/molla202/MantraChain/assets/91562185/fd76840c-6f3f-4fdb-8650-58e84ae353fa)
 
+`Form` : https://docs.google.com/forms/d/e/1FAIpQLSc_UdA4YX2DNWp-056m4qF9KfIFjCCp1aBylpksM2WtuFVeow/viewform
+
+`Faucet` : https://faucet.testnet.mantrachain.io
+
+## Sistem Gereksinimleri
+| Bileşenler | Minimum Gereksinimler | 
+| ------------ | ------------ |
+| CPU |	4|
+| RAM	| 8+ GB |
+| Storage	| 500 GB SSD |
 
 ### Update ve gereklilikleri kuralum
 ```
@@ -117,4 +127,27 @@ sudo systemctl daemon-reload
 sudo systemctl enable mantrachaind
 sudo systemctl restart mantrachaind
 sudo journalctl -u mantrachaind -fo cat
+```
+### cüzdan olusturalım
+```
+mantrachaind keys add cüzdan-adı
+```
+
+### Validator olusturalım
+Not: cüzdan ve moniker adınızı yazınız....
+```
+mantrachaind tx staking create-validator \
+--amount 1000000uaum \
+--from cüzdan-adınızı-yazınız \
+--commission-rate 0.1 \
+--commission-max-rate 0.2 \
+--commission-max-change-rate 0.01 \
+--min-self-delegation 1 \
+--pubkey $(mantrachaind tendermint show-validator) \
+--moniker "Adınızı-yazınız" \
+--identity "" \
+--details "corenode.info" \
+--chain-id mantrachain-1 \
+--gas auto --gas-adjustment 1.5 \
+-y
 ```
