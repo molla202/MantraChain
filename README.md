@@ -7,6 +7,8 @@
 
 `Discord` : https://discord.gg/tSgpKbaP
 
+`Explorer` : https://testnet.itrocket.net/mantra/staking
+
 ## Sistem Gereksinimleri
 | Bileşenler | Minimum Gereksinimler | 
 | ------------ | ------------ |
