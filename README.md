@@ -35,8 +35,9 @@ source $HOME/.bash_profile
 [ ! -d ~/go/bin ] && mkdir -p ~/go/bin
 ```
 ### Varyasyonları ayarlayalım
-```
+
 Not: isim yazılacak yerler var unutmayınız.
+```
 echo "export WALLET="cüzdan-adı-yaz"" >> $HOME/.bash_profile
 echo "export MONIKER="moniker-adı-yaz"" >> $HOME/.bash_profile
 echo "export MANTRA_CHAIN_ID="mantrachain-1"" >> $HOME/.bash_profile
