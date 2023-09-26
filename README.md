@@ -5,6 +5,8 @@
 
 `Faucet` : https://faucet.testnet.mantrachain.io
 
+`Discord` : https://discord.gg/tSgpKbaP
+
 ## Sistem Gereksinimleri
 | Bileşenler | Minimum Gereksinimler | 
 | ------------ | ------------ |
