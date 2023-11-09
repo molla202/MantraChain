@@ -61,7 +61,7 @@ Not: adınızı yazmayı unutmayınız
 mantrachaind config node tcp://localhost:${MANTRA_PORT}657
 mantrachaind config keyring-backend os
 mantrachaind config chain-id mantrachain-testnet-1
-mantrachaind init "buraya-yazılacak" --chain-id mantrachain-1
+mantrachaind init "buraya-yazılacak" --chain-id mantrachain-testnet-1
 ```
 ```
 ### Genesis ve adressbook indirelim
