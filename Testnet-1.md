@@ -42,7 +42,7 @@ Not: isim yazılacak yerler var unutmayınız.
 ```
 echo "export WALLET="cüzdan-adı-yaz"" >> $HOME/.bash_profile
 echo "export MONIKER="moniker-adı-yaz"" >> $HOME/.bash_profile
-echo "export MANTRA_CHAIN_ID="mantrachain-1"" >> $HOME/.bash_profile
+echo "export MANTRA_CHAIN_ID="mantrachain-testnet-1"" >> $HOME/.bash_profile
 echo "export MANTRA_PORT="22"" >> $HOME/.bash_profile
 source $HOME/.bash_profile
 ```
